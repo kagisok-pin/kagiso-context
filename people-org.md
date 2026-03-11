@@ -41,6 +41,7 @@ Managing Director (Kagiso)
 - **Gaps to monitor:** No prior Cin7/Xero experience; limited warehouse/dispatch record; shorter tenures (retention watch); corporate-to-SME adaptation required
 - **Reports to:** Kagiso (MD)
 - **Direct reports:** Production Supervisor, Dieketseng, Sales & Inventory Admin
+- **⚠️ Active HR Matter:** Named respondent in PS-HR-2026-03-004 (Phumzile Tshabalala v Sydney Bonongo). Allegations: sexual harassment (making demeaning statements to colleagues about PT) and removal of post-promotion responsibilities. Formal Grievance Procedure (PS-HR-005) underway as at 2026-03-10. Outcome may determine whether matter escalates to full harassment/disciplinary procedure. Do not treat as resolved until formal outcome is documented.
 
 ### Dieketseng Mthimkhulu — Sales & Office Administrator (upskilling path)
 - **Status:** Existing team member (hired 2024). Highly competent in Cin7 job-card management.
