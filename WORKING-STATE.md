@@ -39,6 +39,9 @@
 ## Recent Session Outcomes
 
 - 16 Mar: Context & memory system audit completed; three-tier architecture defined; ROUTING-RULES.md created; Open Brain confirmed as default capture layer; V2.0 backlog started (HubSpot MCP integration flagged)
+- 16 Mar (session 2): Days 1–3 completed. SOD + EOD skills built and installed. Task tool switched to Notion (MCP connected). EOD.md handoff pattern established. Claude Project created for mobile/web daily rituals. Day 4 (Make build) next.
+- 17 Mar: Notion workspace restructure completed — 42→8 databases, 74+ items archived (90-day expiry 15 June), governance rules established. Tebogo conversation re task DB consolidation scheduled 18 Mar. Solid Systems proposal reviewed. GlobalContext v2.0 pushed to GitHub.
+- 17 Mar (session 2): Kamen Marble & Granite acquisition DD initiative launched. DD plan written. Three skill sets installed: Anthropic PE skills (dd-meeting-prep, value-creation-plan, ic-memo), Deep-Research skills, and custom SA SME Acquisition DD skill. Delivery ETA Accuracy project plan drafted. Next: run /dd-strategic-fit for Kamen, generate information request letter.
 
 ## Temporary Context Flags
 
