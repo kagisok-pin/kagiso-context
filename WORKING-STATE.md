@@ -1,6 +1,6 @@
 # Working State — Week of 2026-03-28
 
-**Last Updated:** 2026-03-28
+**Last Updated:** 2026-03-30
 **Next Review:** 2026-04-04 (Friday EOW skill)
 
 ---
@@ -74,6 +74,9 @@
 
 | Date | Outcome |
 |------|---------|
+| 30 Mar | Project tracking system deployed: PROJECT-REGISTRY.md + per-project PROJECT.md schema, 12 active projects indexed |
+| 30 Mar | GP RM meetings held (Katlego + Amorette) — outcomes not yet captured |
+| 29 Mar | LinkedIn profile project launched: Wanela copy fully drafted + approved; Kagiso audit complete, headline options proposed, copy pending headline decision |
 | 28 Mar | Open Brain full audit: 163 thoughts, 6 clusters mapped, architecture fixes drafted, CHECKPOINT + EOW skills built, 5 project folders created, deduplication list compiled |
 | 25 Mar | Tile induction programme scoped, linked to KB initiative |
 | 24 Mar | OpenClaw reference architecture captured (724-Office repo) |
