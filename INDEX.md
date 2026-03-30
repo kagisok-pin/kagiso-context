@@ -41,6 +41,7 @@ Combined: ~170 lines. Read both before doing anything else.
 | `business-nolte-sandton.md` | <200 | Kitchens, luxury retail, Nolte brand, showroom |
 | `platform-arc-mantle.md` | <150 | Group strategy, holding structure, vertical integration |
 | `people-org.md` | <150 | Specific people, org chart, roles, HR matters |
+| `PROJECT-REGISTRY.md` | ~200 | Project status, priorities, workstreams, next actions — load for morning briefs, project work, and priority decisions |
 
 **Rule:** Load one business file at a time unless the discussion explicitly spans entities.
 
@@ -53,6 +54,7 @@ Combined: ~170 lines. Read both before doing anything else.
 | `decision-log.md` | Revisiting a past strategic decision or checking if something was already settled |
 | `environment-market.md` | Market analysis, competitive positioning, industry dynamics |
 | `ROUTING-RULES.md` | Understanding where new information should be stored |
+| `PROJECT-SCHEMA.md` | Creating a new project or understanding project file structure |
 
 ---
 
@@ -125,3 +127,4 @@ Each context file includes: **Last Updated** (date), **Confidence Level** (Estab
 | 2026-03-04 | Synthesis of 23 ChatGPT conversations; people-org.md created | All files |
 | 2026-03-06 | Layer 2 enrichment from 53 ChatGPT conversations; ALTA Ceramica corrected to sub-brand | All files |
 | 2026-03-16 | Three-tier architecture introduced; WORKING-STATE.md + ROUTING-RULES.md created; INDEX.md rewritten with loading tiers and entity separation | INDEX, WORKING-STATE (new), ROUTING-RULES (new) |
+| 2026-03-30 | PROJECT-REGISTRY.md + PROJECT-SCHEMA.md added; both referenced in Tier 2/3 loading instructions | INDEX, PROJECT-REGISTRY (new), PROJECT-SCHEMA (new) |
