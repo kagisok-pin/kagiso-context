@@ -141,5 +141,4 @@
 | Field | Value |
 |-------|-------|
 | Confidence | Evolving — significant updates this week |
-| Related files | INDEX.md, people-org.md, business-pinnacle-stone.md, decision-log.md |
-| Review trigger | Weekly (Friday EOW skill) or after any major decision |
+| Related files | INDEX.md, people-or
