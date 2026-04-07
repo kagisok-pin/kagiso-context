@@ -65,6 +65,7 @@
 | 28 Mar | Carpentry acquisition idea killed — no thesis, no capacity | Arc & Mantle |
 | 28 Mar | ISO 9001 via AI killed — no execution path in 2026 | Pinnacle Stone |
 | 28 Mar | AI Competence Programme reframed — weekly planning cadence, not parked | Pinnacle Stone |
+| 30 Mar | Finserv dispute settled — R38k with Jerry, payment this week, project archived | Personal |
 | 28 Mar | Sales tech initiatives merged into single phased programme | Pinnacle Stone |
 | 28 Mar | Market intelligence tasks merged (product mix study + competitor analysis) | Pinnacle Stone |
 
@@ -75,7 +76,9 @@
 | Date | Outcome |
 |------|---------|
 | 30 Mar | Project tracking system deployed: PROJECT-REGISTRY.md + per-project PROJECT.md schema, 12 active projects indexed |
-| 30 Mar | GP RM meetings held (Katlego + Amorette) — outcomes not yet captured |
+| 30 Mar | GP RM meetings held (Katlego + Amorette) — minutes filed, addendum/JD/commission policy/KPI table to be sent to both. Amy assessment deadline 6 April. Commission policy signing required (material changes). |
+| 30 Mar | AI Competence Programme session #1 completed — Claude vs ChatGPT comparison delivered (recommendation: Claude Team Plan). Org structure rebuild pending HR data from Kagiso. |
+| 30 Mar | Finserv dispute settled — R38k with Jerry, payment this week. Project archived. |
 | 29 Mar | LinkedIn profile project launched: Wanela copy fully drafted + approved; Kagiso audit complete, headline options proposed, copy pending headline decision |
 | 28 Mar | Open Brain full audit: 163 thoughts, 6 clusters mapped, architecture fixes drafted, CHECKPOINT + EOW skills built, 5 project folders created, deduplication list compiled |
 | 25 Mar | Tile induction programme scoped, linked to KB initiative |
@@ -101,11 +104,11 @@
 | Cin7-HubSpot-Make integration | Sales Tech Stack | Phase 3 (parked) | 2027 |
 | Staff Knowledge Base (RAG) | Institutional Capacity | Queued | After OpenClaw sprint |
 | Product training / tile induction | Institutional Capacity | Queued | After KB foundation |
-| AI Competence Programme | Institutional Capacity | Active (weekly cadence) | First planning session next week |
+| AI Competence Programme | Institutional Capacity | Active (weekly cadence) | Session #1 done 30 Mar. Next: receive HR data → org chart + AI tool decision |
 | Product mix competitive study | Market Intelligence | Active | Deliverable in progress |
 | Kamen M&G acquisition | Acquisitions | Active | DD before 9 April visit |
 | JD Reviews (18 roles) | HR Track | Near complete | Deadline 31 March |
-| RM Role Transition | HR Track | Complete (meetings phase) | GP meetings 30 March |
+| RM Role Transition | HR Track | Complete (GP done) | Send addendum/JD/commission policy to Katlego + Amy |
 | Sydney PSP / Ops Redesign | HR Track | Active | Day 30 review 15 April |
 | Amy Abbott trial | HR Track | Active | Conclusion ~1 April |
 
