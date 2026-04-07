@@ -22,7 +22,7 @@
 ### 3. People & HR — Active Workstreams
 - **Amy Abbott:** Trial period closed 7 April — Amy remains in role, no longer on trial, no further tracking
 - **RM Survey:** Deadline was 6 April — status to confirm
-- **Noma employment contract:** Was due week of 2 April — status to confirm
+- **Noma employment contract:** ⚠️ URGENT — must be cleared by 10 April 2026
 - **Sydney PSP Day 30 review:** 15 April
 - **RM Meetings LP (Zinhle + Nkululeko):** 22 April
 - **Salary review:** Post-JD exercise, sequenced after all JDs finalised
