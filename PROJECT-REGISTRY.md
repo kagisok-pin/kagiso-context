@@ -1,6 +1,6 @@
 # Project Registry
 
-**Last Updated:** 2026-03-30
+**Last Updated:** 2026-04-07
 **Purpose:** Canonical index of all active, paused, and recently archived projects across all Cowork sessions. This file is the single source of truth for project status, priority, and next actions.
 **Maintained by:** End-of-day and end-of-week skills + manual updates
 **Synced to:** GitHub (kagisok-pin/kagiso-context)
@@ -51,16 +51,21 @@ objective:     Complete the JD exercise, role grading, and org restructure that 
 owner:         Kagiso
 started:       2026-02-01
 target_close:  2026-05-31
-last_updated:  2026-03-30
+last_updated:  2026-04-07
 cowork_project: "Pinnacle| HR & Org Design 2026"
 context_file:  ClaudeSpace/pinnacle-hr-org-2026/PROJECT.md
 ```
+
+**Folder structure** (reorganised 7 April 2026):
+- `pinnacle-hr-org-2026/performance-calibration-sydney/` — Sydney PSP documents, JDs, calibration package (merged from OpsManRevamp)
+- `pinnacle-hr-org-2026/compliance-policies/` — HR policies, procedures, forms (merged from HR_Compliance_Revamp)
+- `pinnacle-hr-org-2026/jd-scripts/` — JD generation/fix scripts (merged from Scripts)
 
 **Workstreams:**
 - `jd-reviews` — 18 JDs, deadline 31 March 2026. Near complete.
 - `ops-role-redesign` — Sydney splits into Production Manager + Sales Ops Manager. Approved 26 Mar.
 - `rm-transition` — RM Role Transition complete (meetings phase active). GP meetings 30 Mar.
-- `sydney-psp` — Day 30 PSP review 15 April.
+- `sydney-psp` — Day 30 PSP review 15 April. Files in `performance-calibration-sydney/`.
 - `amy-trial` — 30-day trial conclusion ~1 April. Binary: confirm or exit.
 - `rm-survey` — Survey reminders 1 April; deadline 6 April.
 - `noma-contract` — Employment contract draft week of 2 April.
@@ -87,10 +92,12 @@ objective:     Determine Go/No-Go on acquiring Kamen Marble & Granite before or 
 owner:         Kagiso
 started:       2026-03-01
 target_close:  2026-04-30
-last_updated:  2026-03-30
+last_updated:  2026-04-07
 cowork_project: "Acquisitions"
-context_file:  ClaudeSpace/acquisitions/PROJECT.md
+context_file:  ClaudeSpace/acquisitions/context.md
 ```
+
+**Folder structure:** `acquisitions/kamen-assets/` contains DD reference files (merged from KamenDueDiligence).
 
 **Workstreams:**
 - `strategic-fit-assessment` — NOT YET STARTED. Must complete before 9 April.
@@ -120,10 +127,12 @@ objective:     Build a phased sales technology programme from HubSpot foundation
 owner:         Kagiso
 started:       2026-03-28
 target_close:  2026-12-31
-last_updated:  2026-03-30
+last_updated:  2026-04-07
 cowork_project: "Sales Tech Stack"
-context_file:  ClaudeSpace/sales-tech-stack/PROJECT.md
+context_file:  ClaudeSpace/sales-tech-stack/context.md
 ```
+
+**Folder structure:** `sales-tech-stack/delivery-router/` contains delivery ETA project plan (merged from DeliveryRouter).
 
 **Workstreams:**
 - `phase-1-hubspot` — HubSpot lead management foundation. Start immediately.
@@ -149,10 +158,12 @@ objective:     Complete product mix competitive study covering all product lines
 owner:         Kagiso
 started:       2026-03-23
 target_close:  2026-04-30
-last_updated:  2026-03-30
+last_updated:  2026-04-07
 cowork_project: "Market Intelligence"
-context_file:  ClaudeSpace/market-intelligence/PROJECT.md
+context_file:  ClaudeSpace/market-intelligence/context.md
 ```
+
+**Folder structure:** `market-intelligence/specilink-data/` contains Specilink lead/specifier exports (merged from SpecilinkReports).
 
 **Workstreams:**
 - `product-mix-study` — All product lines vs local competitors (range, pricing, market fit). Triggered by Mirage meeting 19 March. Deliverable in progress.
@@ -292,12 +303,12 @@ objective:     Complete Sydney's 30-day PSP and confirm or restructure the Opera
 owner:         Kagiso
 started:       2026-03-15
 target_close:  2026-04-15
-last_updated:  2026-03-30
+last_updated:  2026-04-07
 cowork_project: "Sydney Structured Performance P"
-context_file:  ClaudeSpace/sydney-psp/PROJECT.md
+context_file:  ClaudeSpace/pinnacle-hr-org-2026/performance-calibration-sydney/
 ```
 
-**Note:** This is a sub-workstream of [PS-HR-2026] but given a separate Cowork project. Day 30 review 15 April.
+**Note:** This is a sub-workstream of [PS-HR-2026] but given a separate Cowork project. Files consolidated into the HR project folder (7 April 2026). Day 30 review 15 April.
 
 **Next actions:**
 1. Day 30 review — 15 April
@@ -364,9 +375,9 @@ objective:     Maintain and evolve daily operating rituals — start-of-day, end
 owner:         Kagiso
 started:       2026-03-01
 target_close:  ongoing
-last_updated:  2026-03-30
+last_updated:  2026-04-07
 cowork_project: "Daily Rituals"
-context_file:  ClaudeSpace/daily-rituals/
+context_file:  ClaudeSpace/skills-library/
 ```
 
 **Workstreams:**
@@ -377,6 +388,12 @@ context_file:  ClaudeSpace/daily-rituals/
 ---
 
 ## Archived Projects
+
+```
+slug:     alta-ceramica-warranty
+closed:   2026-04-07
+outcome:  Warranty documents, web form specs, and email briefs completed (Feb 2026). Archived to _archive/ALTACeramicaWarranty/.
+```
 
 ```
 slug:     finserv-dispute
