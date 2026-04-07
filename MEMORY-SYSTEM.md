@@ -113,3 +113,32 @@ git remote set-url origin https://${PAT}@github.com/kagisok-pin/kagiso-context.g
 
 The PAT file lives at `GlobalContext/.github-pat` (gitignored).
 PAT expires **2026-04-29** — renew via `ClaudeSpace/Credentials/README.md`.
+
+---
+
+## Mobile / Remote Mode
+
+When local file mounts are unavailable (e.g. working on phone or a different machine), ALL context files are accessible via GitHub raw URLs:
+
+**GlobalContext files:**
+`https://raw.githubusercontent.com/kagisok-pin/kagiso-context/main/<filename>.md`
+
+**Project context files:**
+`https://raw.githubusercontent.com/kagisok-pin/kagiso-context/main/projects/<slug>/context.md`
+
+| Project | Slug |
+|---------|------|
+| Sales Tech Stack | `sales-tech-stack` |
+| Acquisitions | `acquisitions` |
+| AI Agent Infrastructure | `ai-agent-infrastructure` |
+| Institutional Capacity | `institutional-capacity` |
+| Market Intelligence | `market-intelligence` |
+
+**Mobile startup sequence:** When the startup prompt's local file reads fail, Claude should automatically fall back to the GitHub raw URLs above. The `git pull` step should be skipped (no local repo available). Report to user which mode is active (local vs GitHub fallback).
+
+### Context.md Sync Rule
+
+The canonical version of each `context.md` lives in the local project folder (`ClaudeSpace/<slug>/context.md`). The GitHub copy is a mirror for remote access. When a context.md is updated locally:
+1. Push the updated file to GitHub during the session end protocol
+2. Use the GitHub Contents API if `git push` is blocked (lock files, permissions)
+3. The EOD and EOW skills should include project context sync in their checklists
