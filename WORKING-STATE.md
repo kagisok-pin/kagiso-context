@@ -45,7 +45,7 @@
 
 | Blocker | Owner | Impact | Status |
 |---------|-------|--------|--------|
-| No calendar MCP | Kagiso | SOD/EOD/EOW skills can't review meetings | Finding replacement for Clockwise |
+| No calendar MCP | Kagiso | SOD/EOD/EOW skills can't review meetings + 6 ANCHOR capabilities blocked (auto meeting prep, deep work protection, autonomous ops layer) | Finding replacement for Clockwise — P1 to resolve |
 | WORKING-STATE mobile sync gap | — | File drifts when sessions are phone-only | GROUND FLOOR Layer 1 scope |
 | Kamen strategic fit assessment | Kagiso | Must complete before 23 April visit | Not started |
 
