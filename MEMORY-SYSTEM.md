@@ -1,7 +1,7 @@
 # Memory System — Kagiso Komane Operating Environment
 
-**Version:** 1.0
-**Last Updated:** 2026-04-07
+**Version:** 1.1
+**Last Updated:** 2026-04-09
 **Location:** `GlobalContext/MEMORY-SYSTEM.md`
 **GitHub:** `https://raw.githubusercontent.com/kagisok-pin/kagiso-context/main/MEMORY-SYSTEM.md`
 
@@ -124,7 +124,7 @@ When local file mounts are unavailable (e.g. working on phone or a different mac
 `https://raw.githubusercontent.com/kagisok-pin/kagiso-context/main/<filename>.md`
 
 **Project context files:**
-`https://raw.githubusercontent.com/kagisok-pin/kagiso-context/main/projects/<slug>/context.md`
+`https://raw.githubusercontent.com/kagisok-pin/kagiso-context/main/projects/<slug>/PROJECT.md`
 
 | Project | Slug |
 |---------|------|
@@ -136,9 +136,9 @@ When local file mounts are unavailable (e.g. working on phone or a different mac
 
 **Mobile startup sequence:** When the startup prompt's local file reads fail, Claude should automatically fall back to the GitHub raw URLs above. The `git pull` step should be skipped (no local repo available). Report to user which mode is active (local vs GitHub fallback).
 
-### Context.md Sync Rule
+### PROJECT.md Sync Rule
 
-The canonical version of each `context.md` lives in the local project folder (`ClaudeSpace/<slug>/context.md`). The GitHub copy is a mirror for remote access. When a context.md is updated locally:
+The canonical version of each `PROJECT.md` lives in the local project folder (`ClaudeSpace/<slug>/PROJECT.md`). The GitHub copy is a mirror for remote access. When a PROJECT.md is updated locally:
 1. Push the updated file to GitHub during the session end protocol
 2. Use the GitHub Contents API if `git push` is blocked (lock files, permissions)
 3. The EOD and EOW skills should include project context sync in their checklists
