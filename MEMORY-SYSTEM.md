@@ -1,6 +1,6 @@
 # Memory System — Kagiso Komane Operating Environment
 
-**Version:** 1.1
+**Version:** 1.2
 **Last Updated:** 2026-04-09
 **Location:** `GlobalContext/MEMORY-SYSTEM.md`
 **GitHub:** `https://raw.githubusercontent.com/kagisok-pin/kagiso-context/main/MEMORY-SYSTEM.md`
@@ -14,6 +14,7 @@ This is the single source of truth for memory system rules, capture protocols, a
 Before doing any work, read these from GlobalContext:
 - `INDEX.md` — Master index, entity overview, loading instructions
 - `WORKING-STATE.md` — Current priorities, blockers, recent outcomes
+- `WORKING-PRACTICES.md` — File placement rules, naming conventions, promotion rules (applies to all agents)
 
 **Local path:** `C:\Users\KagisoKomane\Documents\AIDevSpace\ClaudeSpace\GlobalContext\`
 **GitHub fallback:** `https://raw.githubusercontent.com/kagisok-pin/kagiso-context/main/<filename>.md`
@@ -92,7 +93,7 @@ Before closing any session:
 ## Skills Rule
 
 If you create or modify a skill in this session:
-1. Write or edit the skill in `ClaudeSpace/skills-library/` first — this is the source of truth
+1. Write or edit the skill in `ClaudeSpace/anchor/` first — this is the source of truth (renamed from skills-library/ on 9 April 2026)
 2. Copy the file into `.claude/skills/<skill-name>/` in each Cowork project that should use it
 3. Increment the version number on every meaningful change
 4. Do not edit only the deployed copy — it will be overwritten next time the library version is deployed
