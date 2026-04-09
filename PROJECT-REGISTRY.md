@@ -1,6 +1,6 @@
 # Project Registry
 
-**Last Updated:** 2026-04-07
+**Last Updated:** 2026-04-09
 **Purpose:** Canonical index of all active, paused, and recently archived projects across all Cowork sessions. This file is the single source of truth for project status, priority, and next actions.
 **Maintained by:** End-of-day and end-of-week skills + manual updates
 **Synced to:** GitHub (kagisok-pin/kagiso-context)
@@ -33,6 +33,16 @@
 ### Archive Rule
 A project may be archived when: status = complete AND all workstreams closed AND all open tasks captured or closed in Open Brain AND any deliverables filed.
 
+### Standard Skills (mandatory for all projects)
+
+Every Cowork project MUST have these skills deployed in `.claude/skills/<skill-name>/SKILL.md`:
+
+| Skill | Source | Purpose |
+|-------|--------|---------|
+| `checkpoint` | `skills-library/checkpoint-SKILL-v1.md` | Session integrity protection — auto-captures state before context compaction |
+
+When creating a new project, deploy all standard skills before first use. Canonical source files live in `ClaudeSpace/skills-library/`.
+
 ---
 
 ## Active Projects
@@ -51,9 +61,12 @@ objective:     Complete the JD exercise, role grading, and org restructure that 
 owner:         Kagiso
 started:       2026-02-01
 target_close:  2026-05-31
-last_updated:  2026-04-07
+last_updated:  2026-04-09
 cowork_project: "Pinnacle| HR & Org Design 2026"
 context_file:  ClaudeSpace/pinnacle-hr-org-2026/PROJECT.md
+soul_file:     ClaudeSpace/pinnacle-hr-org-2026/.claude/SOUL.md
+agent:         BASTION
+scaffold_compliant: yes
 ```
 
 **Folder structure** (reorganised 7 April 2026):
@@ -83,18 +96,21 @@ context_file:  ClaudeSpace/pinnacle-hr-org-2026/PROJECT.md
 ### [ACQ-KAMEN] Kamen M&G Acquisition
 
 ```
-slug:          acquisitions-kamen
+slug:          acquisitions
 entity:        Arc & Mantle
 priority:      P1
 status:        active
 alignment:     strategic
-objective:     Determine Go/No-Go on acquiring Kamen Marble & Granite before or at 9 April in-person visit
+objective:     Determine Go/No-Go on acquiring Kamen Marble & Granite before balance payment deadline
 owner:         Kagiso
 started:       2026-03-01
-target_close:  2026-04-30
-last_updated:  2026-04-07
+target_close:  2026-06-09
+last_updated:  2026-04-09
 cowork_project: "Acquisitions"
-context_file:  ClaudeSpace/acquisitions/context.md
+context_file:  ClaudeSpace/acquisitions/PROJECT.md
+soul_file:     ClaudeSpace/acquisitions/.claude/SOUL.md
+agent:         VANTAGE
+scaffold_compliant: yes
 ```
 
 **Folder structure:** `acquisitions/kamen-assets/` contains DD reference files (merged from KamenDueDiligence).
@@ -127,9 +143,12 @@ objective:     Build a phased sales technology programme from HubSpot foundation
 owner:         Kagiso
 started:       2026-03-28
 target_close:  2026-12-31
-last_updated:  2026-04-07
+last_updated:  2026-04-08
 cowork_project: "Sales Tech Stack"
-context_file:  ClaudeSpace/sales-tech-stack/context.md
+context_file:  ClaudeSpace/sales-tech-stack/PROJECT.md
+soul_file:     ClaudeSpace/sales-tech-stack/.claude/SOUL.md
+agent:         VECTOR
+scaffold_compliant: yes
 ```
 
 **Folder structure:** `sales-tech-stack/delivery-router/` contains delivery ETA project plan (merged from DeliveryRouter).
@@ -158,9 +177,12 @@ objective:     Complete product mix competitive study covering all product lines
 owner:         Kagiso
 started:       2026-03-23
 target_close:  2026-04-30
-last_updated:  2026-04-07
+last_updated:  2026-04-08
 cowork_project: "Market Intelligence"
-context_file:  ClaudeSpace/market-intelligence/context.md
+context_file:  ClaudeSpace/market-intelligence/PROJECT.md
+soul_file:     ClaudeSpace/market-intelligence/.claude/SOUL.md
+agent:         SABLE
+scaffold_compliant: yes
 ```
 
 **Folder structure:** `market-intelligence/specilink-data/` contains Specilink lead/specifier exports (merged from SpecilinkReports).
@@ -186,9 +208,12 @@ objective:     Build foundational knowledge and AI competence infrastructure —
 owner:         Kagiso
 started:       2026-03-28
 target_close:  2026-09-30
-last_updated:  2026-03-30
+last_updated:  2026-04-09
 cowork_project: "Institutional Capacity"
 context_file:  ClaudeSpace/institutional-capacity/PROJECT.md
+soul_file:     ClaudeSpace/institutional-capacity/.claude/SOUL.md
+agent:         LOOM
+scaffold_compliant: yes
 ```
 
 **Workstreams:**
@@ -212,16 +237,19 @@ alignment:     institutional
 objective:     Prove self-hosted agent architecture (NemoClaw) and extend Open Brain with visual layer and edge functions
 owner:         Kagiso
 started:       2026-03-20
-target_close:  2026-04-10
-last_updated:  2026-03-30
+target_close:  2026-04-30
+last_updated:  2026-04-08
 cowork_project: "AI Agent Infrastructure"
-context_file:  ClaudeSpace/ai-agent-infrastructure/context.md
+context_file:  ClaudeSpace/ai-agent-infrastructure/PROJECT.md
+soul_file:     ClaudeSpace/ai-agent-infrastructure/.claude/SOUL.md
+agent:         FORGE
+scaffold_compliant: yes
 ```
 
 **Workstreams:**
 - `nemoclaw-sprint` — 3-week sprint. Paused at Hetzner ID verification (20 March). Week 2 scope: first custom skills + Pinnacle Stone use cases. Sprint end ~10 April.
 - `open-brain-extensions` — Visual web app on Vercel. Phase 0 complete. Phase 1 (Relationships Tracker) mostly complete. MCP edge functions pending.
-- `checkpoint-skill` — Built. Deploy to Cowork + Code.
+- `checkpoint-skill` — Built. **Deployed to all 12 project folders 8 April 2026.** Marked as standard skill in PROJECT-REGISTRY.
 - `eow-skill` — Built. Deploy to Cowork + Code.
 - `architecture-fixes` — Pending: paste into all 5 project instructions.
 - `supabase-edge-functions` — Spec written. Code session needed.
@@ -237,7 +265,7 @@ context_file:  ClaudeSpace/ai-agent-infrastructure/context.md
 ### [OB] OpenBrain
 
 ```
-slug:          openbrain
+slug:          openbrain-dev
 entity:        Personal / Infrastructure
 priority:      P2
 status:        active
@@ -246,19 +274,23 @@ objective:     Maintain and evolve the Open Brain memory system — deduplicatio
 owner:         Kagiso
 started:       2026-02-14
 target_close:  ongoing
-last_updated:  2026-03-30
+last_updated:  2026-04-09
 cowork_project: "OpenBrain"
-context_file:  ClaudeSpace/OpenBrainDev/
+context_file:  ClaudeSpace/openbrain-dev/PROJECT.md
+soul_file:     ClaudeSpace/openbrain-dev/.claude/SOUL.md
+agent:         CORTEX
+scaffold_compliant: yes
 ```
 
 **Workstreams:**
-- `deduplication` — 5 duplicate clusters identified (NemoClaw x4, CHECKPOINT x3 + others). Edge function spec written.
-- `monthly-prune` — Spec written. First prune to be scheduled.
-- `type-fix` — capture_thought ignores type parameter. Supabase edge function fix needed.
-- `hygiene` — Ongoing: CHECKPOINT + EOW skills provide session-level protection.
+- `hygiene` — Deduplication, type correction, stale thought cleanup. 5 duplicate clusters identified.
+- `edge-functions` — Supabase edge functions: fix_thought_type, delete_thought, update_thought_status. Specs written, build pending (coordinate with FORGE).
+- `extensions` — Visual layer and new capabilities. Phase 0 deployed, Phase 1 paused.
+
+**Notes:** Working files from March audit session still at project root — file cleanup into scaffold folders is deferred.
 
 **Next actions:**
-1. Build Supabase edge function for thought type fix (coordinate with AI-INFRA)
+1. Build Supabase edge function for thought type fix (coordinate with FORGE)
 2. Run first deduplication pass
 3. Schedule monthly prune
 
@@ -276,9 +308,12 @@ objective:     Rebuild Kagiso and Wanela's LinkedIn profiles for B2B personal br
 owner:         Kagiso
 started:       2026-03-29
 target_close:  2026-06-30
-last_updated:  2026-03-30
+last_updated:  2026-04-08
 cowork_project: "Komane LinkedIn"
-context_file:  ClaudeSpace/Komane LinkedIn/
+context_file:  ClaudeSpace/komane-linkedin/PROJECT.md
+soul_file:     ClaudeSpace/komane-linkedin/.claude/SOUL.md
+agent:         PRISM
+scaffold_compliant: yes
 ```
 
 **Workstreams:**
@@ -319,21 +354,29 @@ context_file:  ClaudeSpace/pinnacle-hr-org-2026/performance-calibration-sydney/
 
 ```
 slug:          aurik
-entity:        Personal
+entity:        Personal / Cross-entity
 priority:      P3
 status:        active
 alignment:     personal
-objective:     Complete the Aurik coaching/accelerator programme deliverables
+objective:     Extract maximum operational value from the Aurik business coaching/accelerator programme
 owner:         Kagiso
-started:       2026-Q1
-target_close:  2026-TBD
-last_updated:  2026-03-30
+started:       2025-Q1
+target_close:  TBD (programme-driven)
+last_updated:  2026-04-09
 cowork_project: "Aurik"
-context_file:  ClaudeSpace/Aurik/
+context_file:  ClaudeSpace/aurik/PROJECT.md
+soul_file:     ClaudeSpace/aurik/.claude/SOUL.md
+agent:         CATALYST
+scaffold_compliant: yes
 ```
+
+**Workstreams:**
+- `programme-delivery` — Tracking and completing programme deliverables against Aurik milestones. Active.
+- `synthesis` — Compile retrospective synthesis of all Aurik programme work (2025 to date). Not started.
 
 **Next actions:**
 1. Confirm current programme milestones and deliverables
+2. Begin synthesis of 2025–2026 programme outcomes
 
 ---
 
@@ -350,9 +393,12 @@ objective:     Maintain and evolve the cross-entity project tracking system — 
 owner:         Kagiso
 started:       2026-03-30
 target_close:  ongoing
-last_updated:  2026-03-30
+last_updated:  2026-04-08
 cowork_project: "Ongoing Initiative Management"
-context_file:  ClaudeSpace/GlobalContext/PROJECT-REGISTRY.md
+context_file:  ClaudeSpace/ongoing-initiative-management/PROJECT.md
+soul_file:     ClaudeSpace/ongoing-initiative-management/.claude/SOUL.md
+agent:         LATTICE
+scaffold_compliant: yes
 ```
 
 **Purpose:** This is the home project for the project tracking system itself. Any work on PROJECT-REGISTRY.md, PROJECT-SCHEMA.md, PROJECT-TRACKER-INTEGRATION.md, or the morning brief integration happens in this Cowork project.
@@ -384,6 +430,103 @@ context_file:  ClaudeSpace/skills-library/
 - `start-of-day` — Skill deployed. Reads WORKING-STATE.md + relationships warmth.
 - `end-of-day` — Skill built and updated. Deployed.
 - `end-of-week` — Skill built. Deploy pending.
+
+---
+
+### [PWR] Pinnacle Stone Website Rebuild
+
+```
+slug:          pinnacle-website-rebuild
+entity:        Pinnacle Stone
+priority:      P3
+status:        paused
+alignment:     revenue
+objective:     Rebuild Pinnacle Stone website as a premium "Digital Atelier" — cinematic, GSAP-powered React experience
+owner:         Kagiso
+started:       2026-03-06
+target_close:  TBD
+last_updated:  2026-04-09
+cowork_project: "Pinnacle Website Rebuild"
+context_file:  ClaudeSpace/pinnacle-website-rebuild/PROJECT.md
+soul_file:     ClaudeSpace/pinnacle-website-rebuild/.claude/SOUL.md
+agent:         ATELIER
+scaffold_compliant: yes
+```
+
+**Workstreams:**
+- `research` — Phase 1 competitive research and strategy. Complete.
+- `design` — Design system, component architecture, UX flow. Not started.
+- `build` — React + Tailwind + GSAP implementation. Not started.
+
+**Notes:** Two Vite prototypes exist (V1: `pinnacle-stone/`, V2: `PinnacleV2/`). Paused since early March 2026. Realistic restart when sales-tech-stack Phase 1 is stable.
+
+**Next actions:**
+1. Decide whether to continue PinnacleV2 or start fresh
+2. Collect high-res slab textures and environment photography
+
+---
+
+### [NKS] Nolte Kitchens Sandton
+
+```
+slug:          nolte-kitchens-sandton
+entity:        Nolte Sandton
+priority:      P2
+status:        active
+alignment:     revenue
+objective:     Support commercial, operational, and marketing performance of the Nolte Kitchens GP Sandton showroom
+owner:         Kagiso
+started:       2026-02-01
+target_close:  ongoing
+last_updated:  2026-04-09
+cowork_project: "Nolte Kitchens Sandton"
+context_file:  ClaudeSpace/nolte-kitchens-sandton/PROJECT.md
+soul_file:     ClaudeSpace/nolte-kitchens-sandton/.claude/SOUL.md
+agent:         STUDIO
+scaffold_compliant: yes
+```
+
+**Workstreams:**
+- `operations` — Day-to-day showroom operations. Active.
+- `marketing` — Lead generation and brand awareness. Not started.
+- `signage` — Emira property signage compliance. Active.
+- `staffing` — Recruitment and onboarding. Active.
+
+**Next actions:**
+1. Establish operational cadence independent of Kagiso
+2. Define marketing strategy for luxury kitchen market
+
+---
+
+### [SS] Solid Systems — Managed IT
+
+```
+slug:          solid-systems
+entity:        Pinnacle Stone (cross-entity)
+priority:      P3
+status:        active
+alignment:     hygiene
+objective:     Transition IT management to Solid Systems managed services provider
+owner:         Kagiso
+started:       2026-03-17
+target_close:  2026-06-30
+last_updated:  2026-04-09
+cowork_project: "Solid Systems"
+context_file:  ClaudeSpace/solid-systems/PROJECT.md
+soul_file:     ClaudeSpace/solid-systems/.claude/SOUL.md
+agent:         GARRISON
+scaffold_compliant: yes
+```
+
+**Workstreams:**
+- `contract` — Finalise and sign managed services contract. Active — awaiting revalidated quote.
+- `onboarding` — 6–8 week onboarding post-signing. Not started.
+- `cost-optimisation` — Post-onboarding invoice and licence review. Not started.
+
+**Next actions:**
+1. Review revalidated quote when received
+2. Confirm escalation cap and contract terms
+3. Sign contract
 
 ---
 
