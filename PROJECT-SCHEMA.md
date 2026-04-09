@@ -1,125 +1,116 @@
-# Project Schema — Standard Template
+# Project Schema — Scaffold v3
 
-**Purpose:** Template for creating a new project's `PROJECT.md` context file. Every Cowork project should have one of these in its ClaudeSpace folder. Agents use this to understand what a project is, what's in scope, what's done, and what's next — without needing to read conversation history.
-
-**Where this lives:** `ClaudeSpace/<project-slug>/PROJECT.md`
-**Registry entry:** Always create a corresponding entry in `GlobalContext/PROJECT-REGISTRY.md`
+**Version:** v3 — 9 April 2026
+**Purpose:** Templates and procedures for creating and maintaining ClaudeSpace projects under the v3 scaffold standard.
+**Spec source:** `ClaudeSpace/ongoing-initiative-management/live/FOLDER-DISCIPLINE-SCAFFOLD.md`
 
 ---
 
 ## How to Create a New Project
 
-1. Create a folder at `ClaudeSpace/<project-slug>/`
-2. Copy and fill in the template below as `PROJECT.md`
-3. Add an entry to `GlobalContext/PROJECT-REGISTRY.md`
-4. Capture a reference-type thought to Open Brain: `"PROJECT CREATED: [name] — [one-line objective]. Slug: [slug]. Registry entry added."`
-5. Update `WORKING-STATE.md` if the project is P1 or P2
+1. Create folder: `ClaudeSpace/<project-slug>/` (lowercase kebab-case, no spaces)
+2. Create `PROJECT.md` using the card template below
+3. Create `.claude/SOUL.md` using the SOUL template
+4. Deploy checkpoint skill: copy `skills-library/checkpoint-SKILL-v1.md` → `.claude/skills/checkpoint/SKILL.md`
+5. Add entry to `GlobalContext/PROJECT-REGISTRY.md`
+6. Capture to Open Brain: `"PROJECT CREATED: [name] — [one-line objective]. Slug: [slug]."`
+7. Update `WORKING-STATE.md` if P1 or P2
+
+Create `workspace/`, `live/`, `_archive/` on first use — not as empty scaffolding.
 
 ---
 
-## PROJECT.md Template
+## PROJECT.md Card Template
 
 ```markdown
-# [Project Name] — Project Context
+# [Project Name]
 
-**Slug:** project-slug
+**Slug:** <project-slug>
 **Entity:** [Pinnacle Stone | Nolte Sandton | Arc & Mantle | Personal | Cross-entity]
-**Priority:** [P1 | P2 | P3 | P4]
-**Status:** [active | paused | complete | archived]
-**North Star Alignment:** [revenue | margin | institutional | strategic | personal | hygiene]
+**Status:** Initiate | Build | Live | Paused | Archived
+**Priority:** P1 | P2 | P3 | P4
+**Alignment:** [revenue | margin | institutional | strategic | personal | hygiene]
 **Owner:** Kagiso
 **Created:** YYYY-MM-DD
-**Target Close:** YYYY-MM-DD (or "ongoing" or "tentative: Q3 2026")
-**Last Updated:** YYYY-MM-DD
-**Cowork Project Name:** "Exact name as shown in Cowork sidebar"
+**Target completion:** YYYY-MM-DD or "Ongoing"
 
----
+## Why
 
-## Objective
+One sentence. Why does this project exist?
 
-One clear sentence. What does success look like when this project is done?
+## Done means
 
----
+- [ ] Deliverable 1 → `live/filename` or `[external system URL/path]`
+- [ ] Deliverable 2 → `live/filename.xlsx`
+- [ ] Deliverable 3 → deployed to [HubSpot / Cin7 / OneDrive path / etc.]
 
-## Why This Exists
+> If you can't write this section, the project isn't ready to start.
 
-Two to four sentences on the business or personal case. Why now? What problem does it solve? What's the cost of not doing it?
+## Current phase
 
----
+What's happening now. 2–3 lines max. Updated each session.
 
 ## Workstreams
 
-Each workstream is a named, trackable stream of work within the project.
-
-### [ws-slug] Workstream Name
-
-**Status:** [not-started | active | paused | complete]
-**Owner:** Name
-**Target:** YYYY-MM-DD or "after X is done"
-
-What this workstream is doing and what done looks like.
-
-**Open tasks:**
+### ws-name
+**Status:** not-started | active | paused | complete
+Brief description. Open tasks below.
 - [ ] Task 1
 - [ ] Task 2
 
-**Completed:**
-- [x] Completed item
+## Decisions
 
----
+| Date | Decision | Rationale |
+|------|----------|-----------|
 
-## Milestones
+## Notes
 
-| Date | Milestone | Status |
-|------|-----------|--------|
-| YYYY-MM-DD | Description | pending / done |
-
----
-
-## Blockers
-
-| Blocker | Owner | Impact | Status |
-|---------|-------|--------|--------|
-| Description | Name | What it blocks | waiting / in progress |
-
----
-
-## Decisions Log
-
-Key decisions made within this project. Full detail lives in Open Brain (type: decision) and GlobalContext/decision-log.md for strategic ones.
-
-| Date | Decision | Alternatives Rejected |
-|------|----------|-----------------------|
-| YYYY-MM-DD | What was decided | What was ruled out |
-
----
-
-## Archive Checklist
-
-Complete before archiving:
-
-- [ ] All workstreams marked complete or explicitly parked
-- [ ] All open tasks captured in Open Brain
-- [ ] Key decisions captured in decision-log.md (if strategic)
-- [ ] Deliverables filed to correct location
-- [ ] WORKING-STATE.md updated
-- [ ] PROJECT-REGISTRY.md entry updated to `archived`
-- [ ] Open Brain archive thought captured: "PROJECT CLOSED: [name] — [outcome]"
-
----
-
-## References
-
-| Resource | Location | Notes |
-|----------|----------|-------|
-| Name | URL or file path | Description |
+Links, blockers, dependencies, context. Keep it short.
 ```
 
 ---
 
-## Priority Decision Guide
+## SOUL.md Template
 
-Use this to assign priority when creating a project:
+See full SOUL.md standard in `FOLDER-DISCIPLINE-SCAFFOLD.md`. Required sections in order:
+
+1. Session Start — MEMORY-SYSTEM.md load instruction + 5-step boot sequence
+2. Identity — Named agent persona, 3–6 sentences
+3. Mission Scope — What this project covers, in/out of bounds
+4. Domain-Specific Standards — What "good" looks like operationally
+5. Domain Operating Context — Market realities, SA constraints
+6. Research Guidance — Purpose-annotated source list
+7. Context Loading — Tier 2 files + Open Brain queries + capture tag
+8. Capture Protocol — What and when to capture
+9. Checkpoint Protocol — Standard trigger rules + skill reference
+
+SOUL.md must be under 200 lines. Content gets pasted into Cowork project instructions UI.
+
+---
+
+## Folder Scaffold
+
+```
+<project-slug>/
+├── PROJECT.md                  ← Orientation card. THE entry point.
+├── workspace/
+│   ├── drafts/                 ← WIP documents, rough outputs
+│   ├── research/               ← Reference material, inputs, specs
+│   └── assets/                 ← Images, data files, raw inputs
+├── live/                       ← Production artefacts. Staff-facing.
+├── _archive/                   ← Superseded versions, dead branches
+└── .claude/
+    ├── SOUL.md                 ← AI instructions (replaces project-instructions.md)
+    ├── skills/checkpoint/SKILL.md
+    └── startup-prompt.md       ← Mobile session opener (optional)
+```
+
+**Mandatory at creation:** `PROJECT.md`, `.claude/SOUL.md`, checkpoint skill
+**Create on first use:** `workspace/drafts/`, `workspace/research/`, `workspace/assets/`, `live/`, `_archive/`
+
+---
+
+## Priority Decision Guide
 
 **P1 if ANY of:**
 - Hard deadline within 30 days
@@ -135,7 +126,6 @@ Use this to assign priority when creating a project:
 **P3 if:**
 - Must-do but no urgency
 - Admin, hygiene, compliance with long runway
-- Low strategic leverage
 
 **P4 if:**
 - Exploratory, R&D, personal
@@ -147,9 +137,19 @@ Use this to assign priority when creating a project:
 
 | Action | When | What to do |
 |--------|------|-----------|
-| **Complete + Archive** | Project finished, deliverables done | Run archive checklist, move to ARCHIVE section in registry |
-| **Kill** | Project cancelled mid-flight | Capture decision in Open Brain (type: decision) explaining why. Update registry status to `archived` with outcome: "killed — [reason]" |
-| **Park** | Not cancelled but no action for 90+ days | Update status to `paused`, set a "revisit after" date in target_close field |
+| **Complete + Archive** | Project finished, deliverables done | Run archive checklist, update registry to `archived` |
+| **Kill** | Project cancelled mid-flight | Capture decision in Open Brain (type: decision). Registry status → `archived`, outcome: "killed — [reason]" |
+| **Park** | No action for 90+ days | Status → `paused`, set revisit date in `target_close` field |
+
+### Archive checklist
+
+- [ ] All workstreams marked complete or explicitly parked
+- [ ] All open tasks captured in Open Brain
+- [ ] Key decisions captured in `decision-log.md` (if strategic)
+- [ ] Deliverables filed to correct location (`live/` or external system)
+- [ ] `WORKING-STATE.md` updated
+- [ ] `PROJECT-REGISTRY.md` entry updated to `archived`
+- [ ] Open Brain capture: `"PROJECT CLOSED: [name] — [outcome]"`
 
 ---
 
@@ -157,8 +157,25 @@ Use this to assign priority when creating a project:
 
 | Trigger | Who updates |
 |---------|-------------|
-| Any project decision made | Agent or Kagiso — Open Brain capture immediately |
-| Workstream completed | Agent updates PROJECT.md + registry entry |
-| End of week | EOW skill prompts review of P1/P2 project status |
-| New project created | Agent creates PROJECT.md + registry entry + Open Brain reference thought |
-| Project archived | Agent runs archive checklist, updates registry |
+| Project decision made | Capture to Open Brain immediately |
+| Workstream completed | Update PROJECT.md + registry |
+| End of week | EOW skill reviews P1/P2 status + scaffold compliance |
+| New project created | PROJECT.md + registry + Open Brain reference thought |
+| Project archived | Archive checklist, update registry |
+
+---
+
+## Migration Checklist (existing projects)
+
+For projects being brought into v3 compliance:
+
+1. [ ] Write `.claude/SOUL.md` (from existing project-instructions.md — strip boilerplate, keep unique content)
+2. [ ] Write `PROJECT.md` card (absorb context from old context.md)
+3. [ ] Create `workspace/` and move content files in
+4. [ ] Create `live/` and move any staff-facing outputs in
+5. [ ] Move `startup-prompt.md` to `.claude/startup-prompt.md`
+6. [ ] Rename folder to lowercase kebab-case if needed (coordinate Cowork reconnect)
+7. [ ] Paste SOUL.md into Cowork project instructions UI
+8. [ ] Update `PROJECT-REGISTRY.md` entry (`soul_file:`, `agent:`, `scaffold_compliant: yes`)
+9. [ ] Delete old `context.md` and `project-instructions.md` once confirmed
+10. [ ] Create `_archive/` and move superseded files in
