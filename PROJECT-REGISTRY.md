@@ -409,27 +409,37 @@ scaffold_compliant: yes
 
 ---
 
-### [RITUALS] Daily Rituals
+### [ANCHOR] CEO Cognitive Augmentation
 
 ```
-slug:          daily-rituals
-entity:        Personal
-priority:      P3
+slug:          anchor
+entity:        Personal / Cross-entity
+priority:      P2
 status:        active
-alignment:     hygiene
-objective:     Maintain and evolve daily operating rituals — start-of-day, end-of-day, end-of-week skills
+alignment:     institutional
+objective:     Build and maintain the CEO cognitive operating layer — daily rituals, meeting prep, decision support, priority routing, and strategic rhythm capabilities
 owner:         Kagiso
 started:       2026-03-01
 target_close:  ongoing
-last_updated:  2026-04-07
+last_updated:  2026-04-09
 cowork_project: "Daily Rituals"
-context_file:  ClaudeSpace/skills-library/
+context_file:  ClaudeSpace/anchor/PROJECT.md
+soul_file:     ClaudeSpace/anchor/.claude/SOUL.md
+agent:         ANCHOR
+scaffold_compliant: yes
 ```
 
+**Note:** Reframed 9 April 2026 from "Daily Rituals (skills maintenance)" to "CEO Cognitive Augmentation." Folder migration from `skills-library/` to `anchor/` in progress — Cowork project reconnection pending.
+
 **Workstreams:**
-- `start-of-day` — Skill deployed. Reads WORKING-STATE.md + relationships warmth.
-- `end-of-day` — Skill built and updated. Deployed.
-- `end-of-week` — Skill built. Deploy pending.
+- `ws-layer1-rhythm` — SOD/EOD/EOW/Checkpoint skills. Complete. Monitoring mode.
+- `ws-layer2-cognitive-ops` — Meeting prep, decision support, priority routing, comms drafting. Active build.
+- `ws-layer3-strategic-rhythm` — Monthly review, quarterly reset, relationship intelligence, cross-entity switching. Not started.
+- `ws-migration` — Move skill files from skills-library/ to anchor/, reconnect Cowork project. Active.
+
+**Next actions:**
+1. Complete Cowork project reconnection to anchor/ folder (manual — Cowork settings)
+2. Design and build meeting prep skill (first Layer 2 deliverable)
 
 ---
 
