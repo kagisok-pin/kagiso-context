@@ -422,7 +422,7 @@ owner:         Kagiso
 started:       2026-03-01
 target_close:  ongoing
 last_updated:  2026-04-09
-cowork_project: "Daily Rituals"
+cowork_project: "ANCHOR"
 context_file:  ClaudeSpace/anchor/PROJECT.md
 soul_file:     ClaudeSpace/anchor/.claude/SOUL.md
 agent:         ANCHOR
