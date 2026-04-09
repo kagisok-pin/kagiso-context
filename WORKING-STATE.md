@@ -1,6 +1,6 @@
 # Working State — Week of 2026-04-07
 
-**Last Updated:** 2026-04-07
+**Last Updated:** 2026-04-09
 **Next Review:** 2026-04-11 (Friday EOW skill)
 
 ---
@@ -28,11 +28,13 @@
 - **Salary review:** Post-JD exercise, sequenced after all JDs finalised
 - **Sales & Inventory Admin:** Recruitment pending
 
-### 4. ADHD Scaffolding System Maintenance
-- EOD, SOD, and EOW skills updated to v4/v3: Clockwise removed, verification checklists added, backup steps added
-- Clockwise calendar MCP no longer available — replacement needed (task in Open Brain)
-- Checkpoint skill needs deployment to all Cowork projects (task in Open Brain)
-- Skills need manual copy from ClaudeSpace/skills-library/ → .claude/skills/ in each project
+### 4. ANCHOR — CEO Cognitive Augmentation Agent ✅ COMPLETE
+- **All three layers built and deployed 9 April 2026**
+- Layer 1 (Rhythm): SOD, EOD, EOW, Checkpoint — all live
+- Layer 2 (Cognitive Ops): meeting-prep, contact-prep, post-meeting-capture, decision-support, priority-routing, comms-drafting — all live
+- Layer 3 (Strategic Rhythm): monthly-review, quarterly-reset, relationship-intelligence, cross-entity-context — all live
+- Clockwise calendar MCP not replaced yet — 6 ANCHOR capabilities remain partially blocked until resolved
+- ⚠️ GitHub CLI install on Windows machine still outstanding (task in Open Brain)
 
 ### 5. ClaudeSpace Folder Reorganisation
 - Major reorg completed 7 April — old folders archived, PROJECT-REGISTRY.md updated
@@ -55,6 +57,10 @@
 
 | Date | Decision | Entity |
 |------|----------|--------|
+| 9 Apr | ANCHOR complete — all 3 layers, 12 capabilities built and deployed | Personal |
+| 9 Apr | Claude account migration scoped — migrating from kagisok@gmail.com | Personal |
+| 9 Apr | Daily Rituals project reframed as ANCHOR — CEO Cognitive Augmentation Agent | Personal |
+| 9 Apr | ClaudeSpace scaffold migration completed — folder discipline enforced | Personal |
 | 7 Apr | ClaudeSpace folder reorganisation completed — old folders archived, PROJECT-REGISTRY updated | Personal |
 | 7 Apr | Amy Abbott trial closed — remains in role, no longer on trial | Pinnacle Stone |
 | 7 Apr | Kamen visit rescheduled from 9 April to 23 April | Arc & Mantle |
@@ -69,15 +75,18 @@
 
 | Date | Outcome |
 |------|---------|
-| 7 Apr | ClaudeSpace folder reorg: 9 old folders archived/merged, PROJECT-REGISTRY updated, folder mapping captured to Open Brain |
-| 7 Apr | EOD/SOD/EOW skills updated to v4/v3: removed Clockwise, added verification checklists, pre-write backups, dynamic script paths, checkpoint integration in EOD |
+| 9 Apr | **ANCHOR complete** — all 3 layers, 12 capabilities built and deployed to anchor/.claude/skills/ |
+| 9 Apr | Pinnacle Stone HubSpot Audit — all 8 sections complete |
+| 9 Apr | Customer Induction Form built (Pinnacle Stone, Sales Tech Stack) |
+| 9 Apr | Claude account migration scoped — Phase 0 chat history audit done, open threads catalogued |
+| 9 Apr | ClaudeSpace scaffold migration completed — folder discipline enforced across all projects |
+| 9 Apr | Migration rescue — 9 historical decisions/observations pulled from old Claude chat history into Open Brain |
+| 7 Apr | ClaudeSpace folder reorg: 9 old folders archived/merged, PROJECT-REGISTRY updated |
+| 7 Apr | EOD/SOD/EOW skills updated to v4/v3: removed Clockwise, added verification checklists, pre-write backups |
 | 7 Apr | Finserv dispute fully closed — R38k paid, matter settled |
 | 7 Apr | Kamen visit rescheduled to 23 April |
 | 6 Apr | GROUND FLOOR P1 initiative launched — three-layer platform project with four-agent team structure |
 | 6 Apr | SIEVE (YouTube Knowledge Extractor) spec'd — Phase 1 MVP scoped, 5-video validation target |
-| 6 Apr | Etsy interactive HTML products idea captured and parked (weekend project) |
-| 5 Apr | OpenClaw memory architecture reference captured — 5-tier model, unified retrieval layer concept |
-| 3 Apr | Agent memory/observability watch list compiled (Mem0, Zep, Letta, Hindsight, Cognee, AgentOps, Langfuse) |
 
 ---
 
@@ -88,9 +97,9 @@
 | GROUND FLOOR (Platform Infra) | AI Agent Infrastructure | Active (P1) | Define agent personas → run audit phase |
 | OpenClaw / NemoClaw Sprint | AI Agent Infrastructure | Active (paused) | Hetzner verification → Week 2 (subsumed under GROUND FLOOR) |
 | Open Brain Extensions | AI Agent Infrastructure | Active | Phase 1 remaining: MCP edge functions |
-| CHECKPOINT skill | AI Agent Infrastructure | Built | Deploy to all Cowork projects |
+| CHECKPOINT skill | AI Agent Infrastructure | ✅ Built + deployed | Live in anchor |
 | SIEVE (YouTube Knowledge Extractor) | Personal / Learning | Spec'd | Phase 1 MVP build |
-| HubSpot lead management | Sales Tech Stack | Phase 1 | Start date TBD |
+| HubSpot lead management | Sales Tech Stack | Audit complete | Phase 1 build next |
 | AI SDR | Sales Tech Stack | Phase 2 | Planning restart April |
 | AI Prospecting Engine | Sales Tech Stack | Phase 2 | Target 14 April |
 | Cin7-HubSpot-Make integration | Sales Tech Stack | Phase 3 (parked) | 2027 |
@@ -103,33 +112,12 @@
 | RM Role Transition | HR Track | Complete (GP done) | Send addendum/JD/commission policy to Katlego + Amy |
 | Sydney PSP / Ops Redesign | HR Track | Active | Day 30 review 15 April |
 | Amy Abbott trial | HR Track | **Closed** | Remains in role, no further tracking |
-| ADHD Scaffolding Skills | Personal | Active | Copy v4/v3 skills to .claude/skills/, find calendar MCP replacement |
+| ANCHOR (CEO Cognitive Augmentation) | Personal | ✅ Complete | Find calendar MCP replacement to unblock 6 capabilities |
+| Claude account migration | Personal | In progress | Phase 0 done, migration execution next |
 
 ---
 
 ## Open Strategic Questions
 
 - Geographic expansion: Timing and sequencing (unchanged)
-- Holding structure: Final architecture — Family Trust → HoldCo → OpCos + IPCo + Shared Services (unchanged)
-- Brand platform: Arc & Mantle consumer-facing vs group infrastructure (unchanged)
-- Polokwane: Downsize to warehouse-only or close entirely (unchanged)
-- Kamen M&G: Go/No-Go by late April based on DD findings (visit now 23 April)
-
----
-
-## Calendar Lookahead (7 Apr → 25 Apr)
-
-| Date | Event |
-|------|-------|
-| ⚠️ | No calendar integration — dates below from Open Brain / manual capture only |
-| 15 Apr | Sydney PSP Day 30 review |
-| 22 Apr | RM Meetings LP (Zinhle + Nkululeko) |
-| 23 Apr | Kamen M&G in-person visit (Bloemfontein) |
-
----
-
-## Metadata
-
-- RM survey deadline (6 Apr) and Noma contract (week of 2 Apr) — status unconfirmed, carry forward
-- EOW review missed on 4 April — next scheduled 11 April
-- Finserv total cost: R80k ex VAT (R38k settlement + R42k September retainer)
+- Holding structure: Final 
