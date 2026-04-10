@@ -1,6 +1,6 @@
 # Working State — Week of 2026-04-07
 
-**Last Updated:** 2026-04-09
+**Last Updated:** 2026-04-10
 **Next Review:** 2026-04-11 (Friday EOW skill)
 
 ---
@@ -22,11 +22,11 @@
 ### 3. People & HR — Active Workstreams
 - **Amy Abbott:** Trial period closed 7 April — Amy remains in role, no longer on trial, no further tracking
 - **RM Survey:** Deadline was 6 April — status to confirm
-- **Noma employment contract:** ⚠️ URGENT — must be cleared by 10 April 2026
+- **Noma + Devesh contracts (Nolte Kitchens):** ✅ Both contracts complete (10 Apr). Both joining 4 May 2026. Cleared from PS-HR-2026 scope.
 - **Sydney PSP Day 30 review:** 15 April
 - **RM Meetings LP (Zinhle + Nkululeko):** 22 April
 - **Salary review:** Post-JD exercise, sequenced after all JDs finalised
-- **Sales & Inventory Admin:** Recruitment pending
+- **Sales & Inventory Admin:** Recruitment process being finalised — closing 16 April
 
 ### 4. ANCHOR — CEO Cognitive Augmentation Agent ✅ COMPLETE
 - **All three layers built and deployed 9 April 2026**
@@ -57,6 +57,7 @@
 
 | Date | Decision | Entity |
 |------|----------|--------|
+| 10 Apr | EOD skill bugs fixed — Step 3b backup + github_sync.py path resolution patched, verified working | Personal |
 | 9 Apr | ANCHOR complete — all 3 layers, 12 capabilities built and deployed | Personal |
 | 9 Apr | Claude account migration scoped — migrating from kagisok@gmail.com | Personal |
 | 9 Apr | Daily Rituals project reframed as ANCHOR — CEO Cognitive Augmentation Agent | Personal |
@@ -75,6 +76,8 @@
 
 | Date | Outcome |
 |------|---------|
+| 10 Apr | **EOD audit + fix** — two critical bugs patched (backup find command, github_sync.py path resolution). Verified working. |
+| 10 Apr | **Nolte contracts complete** — Noma Mathonsi + Devesh Ramnarain employment contracts finalised. |
 | 9 Apr | **ANCHOR complete** — all 3 layers, 12 capabilities built and deployed to anchor/.claude/skills/ |
 | 9 Apr | Pinnacle Stone HubSpot Audit — all 8 sections complete |
 | 9 Apr | Customer Induction Form built (Pinnacle Stone, Sales Tech Stack) |
@@ -120,4 +123,16 @@
 ## Open Strategic Questions
 
 - Geographic expansion: Timing and sequencing (unchanged)
-- Holding structure: Final 
+- Holding structure: Final architecture — Family Trust → HoldCo → OpCos + IPCo + Shared Services (unchanged)
+- Brand platform: Arc & Mantle consumer-facing vs group infrastructure (unchanged)
+- Polokwane: Downsize to warehouse-only or close entirely (unchanged)
+- Kamen M&G: Go/No-Go by late April based on DD findings (visit now 23 April)
+
+---
+
+## Calendar Lookahead (7 Apr → 25 Apr)
+
+| Date | Event |
+|------|-------|
+| ⚠️ | No calendar integration — dates below from Open Brain / manual capture only |
+| 15 Apr | Sydney PSP Day 30 revi
